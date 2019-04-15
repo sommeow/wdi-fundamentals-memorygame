@@ -1,6 +1,7 @@
 body {
 	text-align: center;
 	margin: 0;
+	overflow: hidden;
 }
 
 a {
@@ -22,13 +23,13 @@ a:hover {
 
 header {
 	font-family: Raleway;
-	color: #ffffff
+	color: #ffffff;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	background-color: #F15B31;
 	padding: 30px 20px;
 	position: relative;
-	width: 100%
+	width: 100%;
 }
 
 h1 {
@@ -55,10 +56,9 @@ nav {
 }
 
 main {
-	width: 850px;
+	width: 100%;
 	margin: 35px auto;
-	position: absolute;
-	padding-top: 60px; 
+	padding-top: 60px;
 }
 
 h2 {
@@ -74,6 +74,7 @@ p {
 	font-family: "Droid Serif";
 	line-height: 26px;
 	font-size: 18px;
+	padding: 0px 30px;
 }
 
 img {
@@ -101,6 +102,7 @@ footer {
 .message {
 	font-family: Raleway;
 	float: right;
+	padding: 0px 30px 0px 0px;
 }
 
 .name {
